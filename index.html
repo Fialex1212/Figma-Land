@@ -9,15 +9,90 @@
 </head>
 <body>
     <header class="header">
-
+        <div class="container">
+            <div class="header__inner">
+                <img src="./images/icons/logo.svg" alt="" class="logo">
+                <nav class="nav">
+                    <ul class="header__list">
+                        <li class="header__item"><a href="#!" class="header__link">Home</a></li>
+                        <li class="header__item"><a href="#!" class="header__link">Product</a></li>
+                        <li class="header__item"><a href="#!" class="header__link">About</a></li>
+                        <li class="header__item"><a href="#!" class="header__link">Contact</a></li>
+                    </ul>
+                </nav>
+                <a href="" class="header__button white__button">Login</a>
+                <button class="header__menu" onclick="openMenu(this)">
+                    <span class="menu__item"></span>
+                </button>
+            </div>
+        </div>
     </header>
 
-    <section class="features">
+    <section class="hero">
+        <div class="container">
+            <h1 class="title hero__title">
+                Work at the 
+                speed of 
+                thought.</h1>
+            <p class="subtitle hero__subtitle">
+                Most calendars are designed for teams. 
+                Slate is designed for freelancers who 
+                want a simple way to plan 
+                their schedule.
+            </p>
+            <div class="hero__buttons">
+                <a href="" class="hero__button purple__button">Try For Free</a>
+                <a href="" class="hero__button white__button">Learn More</a>
+            </div>
+        </div>
+    </section>
 
+    <section class="features">
+        <div class="container">
+            <h2 class="title">Features</h2>
+            <p class="subtitle features__subtitle">Most calendars are designed for teams. Slate is designed for freelancers who want a simple way to plan their schedule.</p>
+            <div class="features__inner">
+                <div class="features__wrapper">
+                    <img class="features__img" src="./images/features/Chat-Bot.png" alt="">
+                    <img class="features__img" src="./images/features/Line-Chart.png" alt="">
+                </div>
+                <ul class="features__list">
+                    <span class="features__item">
+                        <h3 class="features__item__title">A single source of truth</h3>
+                        <p class="features__item__subtitle">When you add work to your Slate calendar we automatically calculate useful insights </p>
+                    </span>
+                    <span class="features__item">
+                        <h3 class="features__item__title">Intuitive interface</h3>
+                        <p class="features__item__subtitle">When you add work to your Slate calendar we automatically calculate useful insights </p>
+                    </span>
+                    <span class="features__item">
+                        <h3 class="features__item__title">Or with rules</h3>
+                        <p class="features__item__subtitle">When you add work to your Slate calendar we automatically calculate useful insights </p>
+                    </span>
+                </ul>
+            </div>
+        </div>
     </section>
 
     <section class="contents">
-
+        <div class="container">
+            <h2 class="title contents__title">Contents</h2>
+            <p class="subtitle contents__subtitle">We focus on ergonomics and meeting you where you work. It's only a keystroke away.</p>
+            <ul class="contents__list">
+                <li class="contents__item">
+                    <h3 class="item__title">Work</h3>
+                    <p class="item__subtitle">Ever wondered if you're too reliant on a client for work? Slate helps you identify .</p>
+                    <a href="#!" class="item__button">Sign Up</a>
+                    <img src="./images/contents/Macbook-Pro.png" alt="" class="item__img">
+                </li>
+                <li class="contents__item">
+                    <h3 class="item__title">Design with real data</h3>
+                    <p class="item__subtitle">Ever wondered if you're too reliant on a client for work? Slate helps you identify .</p>
+                    <a href="#!" class="item__button">Try For Free</a>
+                    <img src="./images/contents/Boards-Notifications.png" alt="" class="item__img">
+                </li>
+            </ul>
+        </div>
     </section>
 
     <section class="gallery">
@@ -25,20 +100,105 @@
     </section>
 
     <section class="partners">
-
+        <div class="container">
+            <h2 class="title partners__title">Partners</h2>
+            <p class="subtitle partners__subtitle">We focus on ergonomics and meeting you where you work. It's only a keystroke away.</p>
+            <ul class="partners__list">
+                <span class="partners__item"></span>
+                <span class="partners__item"></span>
+                <span class="partners__item"></span>
+                <span class="partners__item"></span>
+                <span class="partners__item"></span>
+                <span class="partners__item"></span>
+            </ul>
+            <a href="#!" class="partners__button">All Partners</a>
+        </div>
     </section>
 
     <section class="testimonials">
-
+        <div class="container">
+            <h2 class="title testimonials__title">Testimonials</h2>
+            <ul class="testimonials__list">
+                <li class="testimonials__item">
+                    <span class="testimonials__user__info">
+                        <p class="testimonials__username">Wade Steward</p>
+                        <p class="testimonials__user__role">Designer</p>    
+                    </span>
+                    <p class="testimonials__content">
+                        Slate helps you see how many 
+                        more days you need to work to 
+                        reach your financial goal for the
+                        month and year. Slate helps 
+                        you see how many more days 
+                        you need to work to reach your 
+                        financial goal for the month and 
+                        year.your financial 
+                        goal for the month and year.
+                    </p>
+                </li>
+                <li class="testimonials__item">
+                    <span class="testimonials__user__info">
+                        <p class="testimonials__username">Philip Watson</p>
+                        <p class="testimonials__user__role">Designer</p>    
+                    </span>
+                    <p class="testimonials__content">
+                        Slate helps you see how many 
+                        more days you need to work to 
+                        reach your financial goal for the
+                        month and year. Slate helps 
+                        you see how many more days 
+                        you need to work to reach your 
+                        financial goal for the month and 
+                        year.your financial 
+                        goal for the month and year.
+                    </p>
+                </li>
+                <li class="testimonials__item">
+                    <span class="testimonials__user__info">
+                        <p class="testimonials__username">Arthur Wilson</p>
+                        <p class="testimonials__user__role">Designer</p>    
+                    </span>
+                    <p class="testimonials__content">
+                        Slate helps you see how many 
+                        more days you need to work to 
+                        reach your financial goal for the
+                        month and year. Slate helps 
+                        you see how many more days 
+                        you need to work to reach your 
+                        financial goal for the month and 
+                        year.your financial 
+                        goal for the month and year.
+                    </p>
+                </li>
+                <li class="testimonials__item">
+                    <span class="testimonials__user__info">
+                        <p class="testimonials__username">Regina Black</p>
+                        <p class="testimonials__user__role">Designer</p>    
+                    </span>
+                    <p class="testimonials__content">
+                        Slate helps you see how many 
+                        more days you need to work to 
+                        reach your financial goal for the
+                        month and year. Slate helps 
+                        you see how many more days 
+                        you need to work to reach your 
+                        financial goal for the month and 
+                        year.your financial 
+                        goal for the month and year.
+                    </p>
+                </li>
+            </ul>
+        </div>
     </section>
 
     <section class="prefooter">
         <div class="container">
-            <!-- TODO -->
-            <!-- tune before image -->
-            <div class="prefooter__wrapper">
-                <h2 class="prefooter__title">OpenType features and Variable fonts</h2>
-                <a href="#!" class="prefooter__button">Try For Free</a>
+            <div class="prefooter__inner">
+                <div class="prefooter__item">
+                    <h2 class="prefooter__title">OpenType features and Variable fonts</h2>
+                    <a href="#!" class="prefooter__button">Try For Free</a>
+                </div>
+                <img src="./images/prefooter-img1.jpg" alt="" class="prefooter__img">
             </div>
         </div>
     </section>
@@ -81,5 +241,6 @@
             </div>
         </div>
     </footer>
+    <script src="./js/scripts.js" ></script>
 </body>
 </html>
